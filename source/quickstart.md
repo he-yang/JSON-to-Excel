@@ -13,18 +13,19 @@ This add-in works in: Excel 2013 Service Pack 1 or later, Excel 2016 for Mac, Ex
 * Click on the above link and, you will see the webpage of JSON to Excel on Office Store.
 * Click on the “Free Trial” button.
 * The next page you will see will show that you can open the add-in in Excel/Excel Online.
-* Now go to Excel 2013/2016 or Excel Online.
+* Now go to Excel 2013/2016 or Excel Online or Office 365.
 * JSON-to-Excel Tab > Launch JSON to Excel
 * Now you are ready to use this add-in.
 ### Use add-in
 * Prepare your JSON data
 * Fill the text area of JSON-to-Excel with your JSON data
-* Select conversion mode
-* __Simple Mode__
-    * Note, for the simple mode, only regular JSON data can be handled. Only the keys in the first element of JSON will be interpreted as header. Apart from the above box, nothing should be worried.
+<!-- * Select conversion mode -->
+<!-- * __Simple Mode__ -->
+<!-- * Note, for the simple mode, only regular JSON data can be handled. Only the keys in the first element of JSON will be interpreted as header. Apart from the above box, nothing should be worried. -->
 
-```
+
 Note: Your JSON shall be wrapped in an array [], see below example. Try to align your format to the below one to avoid errors.
+```
 [
     {
         "name":"David",
@@ -36,7 +37,7 @@ Note: Your JSON shall be wrapped in an array [], see below example. Try to align
     }
 ]
 ```
-* __Advanced Mode__
+<!-- * __Advanced Mode__
     * Note, for the advance mode, you must fill in the “headers for advanced mode”
 
         * If you would like to have ``“id”,”detail.name” and “detail.sex”`` included , then fill in ``id,detail.name,detail.sex``
@@ -86,7 +87,57 @@ Example JSON
         }
     }
 ]
+``` -->
+## Errors
+
+### Invalid JSON
+
+When the add-in pops up with an error alert of invalid JSON, it means the JSON is not meeting the JSON schema.
+
+Steps to provide a valid JSON
+* Using [free webservice](https://jsononline.net/json-validator) for validating JSON, please make sure this website says your JSON file **JSON is Valid**.
+* Your JSON file shall be wrapped in []
 ```
+[
+    {
+        "name":"David",
+        "age":20
+    },
+    {
+        "name":"Lily",
+        "age":22
+    }
+]
+```
+* In the above example JSON, you can see there are two element in one Array [], the first element
+```
+    {
+        "name":"David",
+        "age":20
+    }
+```
+and the second element
+```
+    {
+        "name":"Lily",
+        "age":22
+    }
+```
+* Make sure your elements are wrapped in the [].
+
+### Too many columns
+
+When you have a pop up of too many columns error, it means you have too many key-value pairs in one single element.
+
+One single element has two key-value pairs, 
+```
+    {
+        "name":"Lily",
+        "age":22
+    }
+```
+and the addin now can accept no more than 26 key-value pairs.
+
 ## Donation
 
 Your donation is important to WTSolutions Excel-to-JSON add-in, making the server alive to provide you with stable service.
