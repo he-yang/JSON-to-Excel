@@ -19,12 +19,13 @@ This add-in works in: Excel 2013 Service Pack 1 or later, Excel 2016 for Mac, Ex
 ### Use add-in
 * Prepare your JSON data
 * Fill the text area of JSON-to-Excel with your JSON data
-<!-- * Select conversion mode -->
-<!-- * __Simple Mode__ -->
-<!-- * Note, for the simple mode, only regular JSON data can be handled. Only the keys in the first element of JSON will be interpreted as header. Apart from the above box, nothing should be worried. -->
+* Select conversion mode , and click on Go button
+1. __Simple Mode__
+
+> Note, for the simple mode, only regular JSON data can be handled. Only the keys in the first element of JSON will be interpreted as header. Apart from the above box, nothing should be worried.
 
 
-Note: Your JSON shall be wrapped in an array [], see below example. Try to align your format to the below one to avoid errors.
+> Note: Your JSON shall be wrapped in an array [], see below example. Try to align your format to the below one to avoid errors.
 ```
 [
     {
@@ -37,18 +38,17 @@ Note: Your JSON shall be wrapped in an array [], see below example. Try to align
     }
 ]
 ```
-<!-- * __Advanced Mode__
-    * Note, for the advance mode, you must fill in the “headers for advanced mode”
+2. __Nested Mode__
+> Note, for the nested mode, it is currently under test, and you must request for preview before you can use this mode.
 
-        * If you would like to have ``“id”,”detail.name” and “detail.sex”`` included , then fill in ``id,detail.name,detail.sex``
-        * If you would like to have ``“detail.name” and “detail.age”`` included, then fill in ``detail.name,detail.age``
-        * Click on one and ONLY one cell of the target datasheet
-        * Click on “Go” button
-```
-Note: Your JSON shall be wrapped in an array [], see below example. Try to align your format to the below one to avoid errors.
+> [Request For Preview](https://s.wtsolutions.cn/getToken.html)
+
+> Note: Your JSON shall be wrapped in an array [], see below example. Try to align your format to the below one to avoid errors.
+
+> Note: The header will come from the first element of the JSON, here in this case, `id`, `detail.name`, `detail.age`, `detail.sex`, `detail.contact.cell`, `detail.contact.landline` will be your header in the Excel file. You can see in the second element (i.e. id = 2), there is an additional `company` field, but will be ignored by this add-in.
 
 Example JSON
-
+```
 [
     {
         "id":1,
@@ -71,7 +71,8 @@ Example JSON
             "contact":{
                 "cell":158,
                 "landline":20
-            }
+            },
+            "company":"WTSolutions"
         }
     },
     {
@@ -87,7 +88,7 @@ Example JSON
         }
     }
 ]
-``` -->
+```
 ## Errors
 
 ### Invalid JSON
@@ -157,3 +158,6 @@ Backup your documents before using this add-in.
 
 ## About
 JSON-to-Excel is an Excel add-in that convert JSON to Excel. It is maintained by he.yang@wtsolutions.cn from WTSolutions.
+
+## Feedback
+Fill in [this form](https://forms.office.com/r/68kFzZnGKT) for feedback.
