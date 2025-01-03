@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'JSON-to-Excel'
-copyright = '2022, WTSolutions'
+copyright = '2025, WTSolutions'
 author = 'WTSolutions'
-release = '1.1.0.0'
+release = '1.4.0.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

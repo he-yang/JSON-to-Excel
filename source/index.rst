@@ -7,8 +7,12 @@ JSON-to-Excel's documentation!
 =========================================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
 
    quickstart.md
+   contact.md
+   termsofuse.md
+   privacy.md
+   
 
