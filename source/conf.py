@@ -10,11 +10,14 @@ project = 'JSON-to-Excel'
 copyright = '2025, WTSolutions'
 author = 'WTSolutions'
 release = '1.4.0.0'
+version = '1.4.0.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = ['myst_parser','sphinx_sitemap']
+html_baseurl = 'https://json-to-excel.wtsolutions.cn/'
+html_extra_path = ['robots.txt']
 
 templates_path = ['_templates']
 exclude_patterns = []
