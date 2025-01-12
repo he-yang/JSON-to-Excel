@@ -53,7 +53,7 @@ This Agreement shall be governed by and construed in accordance with the laws of
 
 ## 11. Changes to this Agreement
 
-We reserve the right to modify this Agreement at any time. Any changes will be effective immediately upon posting the revised Agreement on our website. Your continued use of the Service after any changes constitutes your acceptance of the revised Agreement.
+We reserve the right to modify this Agreement at any time. Any changes will be effective immediately upon posting the revised Agreement on our website. Your continued use of the Service after any changes constitutes your acceptance of the revised Agreement. 
 
 ## 12. Contact Information
 
