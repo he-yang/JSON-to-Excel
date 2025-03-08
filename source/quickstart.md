@@ -41,6 +41,7 @@ This quick start is for v 2.0.0
 ## Acceptable JSON format
 ### Required Format
 The input must be a valid JSON array containing objects. Each object in the array represents one row in the Excel output.
+
 ```json
 [
     {"property1": value1, "property2": value2, ...},
@@ -74,6 +75,18 @@ The input must be a valid JSON array containing objects. Each object in the arra
    - Use for JSON objects with nested structures
    - Nested properties are flattened using dot notation
    - Example: contact.email becomes a column name
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8772217510669640"
+     data-ad-slot="2653271427"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Examples
 

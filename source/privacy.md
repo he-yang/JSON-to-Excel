@@ -1,6 +1,7 @@
 # Privacy Policy
 
-**Effective Date:** 2025-1-3
+**Effective Date:** 2025-3-8
+**Last Revised:** 2025-3-8
 
 ## 1. Introduction
 
@@ -43,6 +44,36 @@ Cloudflare Web Analytics is designed to prioritize user privacy. It collects the
 - No data from your JSON files is shared with Cloudflare or any other third party.
 
 For more information about Cloudflare Web Analytics and their privacy practices, please visit [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
+
+The **JSON-to-Excel** Service also uses **Google AdSense** to display advertisements. Google AdSense uses cookies and other technologies to collect data about users for advertising purposes.
+
+### What Data is Collected by Google AdSense?
+Google AdSense collects the following information to provide personalized advertising:
+- Cookie data and device identifiers
+- IP address and location information
+- Browser type and settings
+- Website browsing behavior
+- Ad interaction data
+- Device information and screen resolution
+
+### What Data is NOT Collected by Google AdSense?
+- No data from your JSON files is shared with Google AdSense
+- No sensitive business data from Excel processing
+- No personal information beyond standard web analytics data
+
+ For more information about how Google uses data, please visit [Google's Privacy & Terms](https://policies.google.com/privacy).
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8772217510669640"
+     data-ad-slot="2653271427"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. Your Responsibilities
 

@@ -35,6 +35,18 @@ You are solely responsible for:
 
 We are committed to protecting your privacy. Any JSON data you process through the JSON-to-Excel Service will not be stored, shared, or used by us for any purpose other than providing the Service. However, you acknowledge that the Service operates within the Microsoft Excel environment, and you are responsible for understanding and managing the privacy settings of your Excel software.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8772217510669640"
+     data-ad-slot="2653271427"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 7. Disclaimer of Warranties
 
 The JSON-to-Excel Service is provided "as is" and "as available" without any warranties of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not guarantee that the Service will be error-free, uninterrupted, or compatible with all versions of Microsoft Excel.
