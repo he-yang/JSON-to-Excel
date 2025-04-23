@@ -1,6 +1,8 @@
 
 # Introduction
 
+[中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/quickstart.html)
+
 JSON to Excel is a Microsoft Excel add-in which can convert JSON to Excel.
 
 # Requirements
