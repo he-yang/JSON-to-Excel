@@ -5,7 +5,10 @@
 
 Excel add-in JSON-to-Excel Convert JSON to Excel within Excel (web online, windows, mac, linux)
 =======================================================
-JSON-to-Excel is a Microsoft Excel add-in which can convert JSON to Excel within Excel. Both flat and nested JSON can be converted using this add-in.
+JSON-to-Excel is a Microsoft Excel add-in which can convert JSON to Excel within Excel. 
+
+Both **flat and nested JSON** can be converted using this add-in.
+
 This add-in is available at the Microsoft store- Appsource, which can be accessed within Excel, so it does not require any download, a simple click within Excel would run the add-in.
 
 中文版文档 https://JSON-to-Excel.wtsolutions.cn/zh-cn/latest/

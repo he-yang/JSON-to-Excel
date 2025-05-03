@@ -1,7 +1,7 @@
 # Privacy Policy
 
-**Effective Date:** 2025-3-8
-**Last Revised:** 2025-3-8
+**Effective Date:** 2025-5-3
+**Last Revised:** 2025-5-3
 
 ## 1. Introduction
 
@@ -20,14 +20,22 @@ We want to assure you that:
 - **We do not transmit your data over the internet**. All data processing occurs locally within your Microsoft Excel environment.
 - **We do not access, collect, or use any personal or sensitive information** from your JSON files.
 
-## 4. How the Service Works
+## 4. Data We Collect for Subscription Management
+
+For Pro feature subscriptions, we collect and store:
+- Your name and contact information for subscription management purposes.
+- Payment information (processed by our secure payment gateway Stripe)
+- Subscription status and billing history
+- Usage data related to Pro features for service improvement
+
+## 5. How the Service Works
 
 The **JSON-to-Excel** Service operates entirely within your local Microsoft Excel application. When you use the Service:
 - Your JSON data is processed locally on your device.
 - The conversion from JSON to Excel is performed within your Microsoft Excel environment.
-- No data is sent to our servers or any third-party servers.
+- No data is sent to our servers except your Pro Code for Pro Features.
 
-## 5. Third-Party Services
+## 6. Third-Party Services
 
 The **JSON-to-Excel** Service integrates with **Cloudflare Web Analytics** to collect anonymized usage data about how users interact with our website. This helps us improve the performance and user experience of our Service. 
 
