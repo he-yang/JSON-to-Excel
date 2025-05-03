@@ -18,6 +18,7 @@ This add-in is available at the Microsoft store- Appsource, which can be accesse
    :caption: Contents:
 
    quickstart.md
+   profeatures.md
    contact.md
    termsofuse.md
    privacy.md
