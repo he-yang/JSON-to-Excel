@@ -9,7 +9,7 @@ JSON to Excel is a Microsoft Excel add-in which can convert JSON to Excel.
 This add-in works in: Excel 2013 Service Pack 1 or later, Excel 2016 for Mac, Excel 2016 or later, Excel Online, Office 365 etc.
 
 # Quick Start
-This quick start is for v 2.1.0
+This quick start is for v 2.1.1
 
 ## Get add-in
 * Open a new datasheet in Excel 2013/2016 or Excel Online or Office 365.
@@ -26,7 +26,9 @@ This quick start is for v 2.1.0
 
 ## Use add-in
 * Prepare your JSON data
-* Fill the text area of JSON-to-Excel with your JSON data
+* Load your JSON data (Choose one of the two ways)
+    1. Copy and Paste your JSON data in the text area of JSON-to-Excel, or
+    2. Click on the Load JSON File(s) file selector, and select your JSON file(s) from your local computer, for batch processing (Pro Features), max 20 files can be loaded at once.
 * Select conversion mode , and click on Go button
 
 
@@ -89,7 +91,7 @@ The input must be a valid JSON array containing objects. Each object in the arra
 1. Flat JSON Mode   
    - Use for simple JSON objects without nested structures
    - Each property becomes a column in Excel
-2. Nested JSON Mode   
+2. Nested JSON Mode
    - Use for JSON objects with nested structures
    - Nested properties are flattened using dot notation
    - Example: contact.email becomes a column name
@@ -215,6 +217,8 @@ The input must be a valid JSON array containing objects. Each object in the arra
 - Maximum 1000 objects (rows) per conversion
 - Maximum 100 unique properties (columns) per dataset
 - Arrays in values will be converted to strings in Excel
+- Maximum 20 loaded local JSON files can be converted at once (Pro Feature)
+
 
 
 # Errors

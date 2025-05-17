@@ -130,7 +130,11 @@ Using Dot(.) as delimiter:
 |1|Meimei|meimei@school.com|123-456-7890|{"street":"123 School St","city":"Beijing"}|
 |2|Lily|lily@school.com|098-765-4321|{"street":"456 School Ave","city":"Shanghai"}|
 
+### Load JSON File(s)
 
+The Load JSON File(s) feature allows you to load multiple JSON files into the add-in, and then convert them to Excel sheets. This feature is only available to users who have subscribed to the add-in.
+
+Note: Max 20 files per conversion.
 
 ## More features
 
