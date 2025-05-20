@@ -9,7 +9,7 @@ JSON to Excel is a Microsoft Excel add-in which can convert JSON to Excel.
 This add-in works in: Excel 2013 Service Pack 1 or later, Excel 2016 for Mac, Excel 2016 or later, Excel Online, Office 365 etc.
 
 # Quick Start
-This quick start is for v 2.1.1
+This quick start is for v 2.1.3
 
 ## Get add-in
 * Open a new datasheet in Excel 2013/2016 or Excel Online or Office 365.
@@ -114,7 +114,10 @@ The input must be a valid JSON array containing objects. Each object in the arra
 
 ## Valid JSON example
 ```json
-// Simple flat objects
+// simple, one flat object
+{"name": "John", "age": 30}
+
+// Simple, flat objects
 [
     {"name": "John", "age": 30},
     {"name": "Jane", "age": 25}
@@ -151,7 +154,7 @@ The input must be a valid JSON array containing objects. Each object in the arra
 
 ```json
 // Not wrapped in array
-{"name": "John"}
+{"name": "John"},{"name": "Lily", "age": 30}
 
 // Empty array
 []

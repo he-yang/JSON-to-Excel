@@ -33,6 +33,14 @@ Pro Code is the `email address` you used during the checkout process of the Exce
 
 ## Pro Features
 
+
+### No Ads
+
+After a successful conversion with a valid Pro Code, starting from the next launch (you can shut down the add-in and then start it again), the add-in will no longer display ads. 
+Ads will be displayed if you do not have a valid Pro Code, or if you do not have a valid subscription to the add-in.
+
+> Note, If you still see ads displayed from time to time, try to make a conversion with a valid Pro Code, then restart the add-in.
+
 ### Nested Delimeter
 
 The Nested Delimeter specifies how to handle nested objects in JSON. You can choose from:
@@ -133,6 +141,12 @@ Using Dot(.) as delimiter:
 ### Load JSON File(s)
 
 The Load JSON File(s) feature allows you to load multiple JSON files into the add-in, and then convert them to Excel sheets. This feature is only available to users who have subscribed to the add-in.
+
+After each conversion, a report will be generated, which includes:
+- The filename of selected JSON file(s)
+- The conversion result (success or failure)
+- The sheet name if success
+- The error message if failure
 
 Note: Max 20 files per conversion.
 
