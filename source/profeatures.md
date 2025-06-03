@@ -17,7 +17,9 @@ Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial 
 
 Each Pro Code is valid for both the Excel-to-JSON add-in and the JSON-to-Excel provided by WTSolutions.
 
-Subscribe through Stripe, here [https://buy.stripe.com/00gdQT2iz0Vp32E002](https://buy.stripe.com/00gdQT2iz0Vp32E002)
+### Subscribe through Stripe and Payment
+
+[https://buy.stripe.com/00gdQT2iz0Vp32E002](https://buy.stripe.com/00gdQT2iz0Vp32E002)
 
 Payment method:
 - Bank Card (Visa, Mastercard, American Express, JCB, 银联)
@@ -27,7 +29,11 @@ Payment method:
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
+### Cancel Subscription
 
+You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the Pro Features. 
+
+[https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00](https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00)
 
 ## 6.2 Pro Features
 
