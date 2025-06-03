@@ -1,10 +1,10 @@
-# Pro Features
+# 6. Pro Features
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/profeatures.html)
 
-The JSON-to-Excel add-in offers a set of pro features that enhance the functionality of the add-in. These features are only available to users who have subscribed to the add-in.
+JSON-to-Excel offers a set of pro features that enhance the functionality. These features are only available to users who have subscribed to JSON to Excel.
 
-## Subscription
+## 6.1 Subscription, Payment, and Cancellation
 
 7 days free trial, then you will be charged monthly at one of the following rates for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
 - USD US$2.66 / month,
@@ -15,7 +15,7 @@ The JSON-to-Excel add-in offers a set of pro features that enhance the functiona
 
 Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
 
-Each Pro Code is valid for both the Excel-to-JSON add-in and the JSON-to-Excel add-in provided by WTSolutions.
+Each Pro Code is valid for both the Excel-to-JSON add-in and the JSON-to-Excel provided by WTSolutions.
 
 Subscribe through Stripe, here [https://buy.stripe.com/00gdQT2iz0Vp32E002](https://buy.stripe.com/00gdQT2iz0Vp32E002)
 
@@ -27,25 +27,24 @@ Payment method:
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
-## Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the Excel-to-JSON add-in on Stripe. This code is required to access pro features.
 
-## Pro Features
+## 6.2 Pro Features
 
 
 ### No Ads
 
-After a successful conversion with a valid Pro Code, starting from the next launch (you can shut down the add-in and then start it again), the add-in will no longer display ads. 
-Ads will be displayed if you do not have a valid Pro Code, or if you do not have a valid subscription to the add-in.
+After a successful conversion with a valid Pro Code, starting from the next launch (you can shut down JSON to Excel and then start it again), JSON to Excel will no longer display ads. 
+Ads will be displayed if you do not have a valid Pro Code, or if you do not have a valid subscription to JSON to Excel.
 
-> Note, If you still see ads displayed from time to time, try to make a conversion with a valid Pro Code, then restart the add-in.
+> Note, If you still see ads displayed from time to time, try to make a conversion with a valid Pro Code, then restart JSON to Excel.
 
 ### Nested Delimeter
 
 The Nested Delimeter specifies how to handle nested objects in JSON. You can choose from:
 - Dot (.) - Default
 - Underscore (_)
+- Double Underscore (__)
 - Forward slash (/)
 
 For example, with this JSON:
@@ -90,7 +89,7 @@ Using Forward Slash(/):
 
 ### Max Depth Nested
 
-The Max Depth setting controls how deep the add-in will process nested objects:
+The Max Depth setting controls how deep JSON to Excel will process nested objects:
 - Default: unlimited number of depths
 - Acceptable Range: 1 ~ 20  (requires Pro feature)
 
@@ -140,7 +139,7 @@ Using Dot(.) as delimiter:
 
 ### Load JSON File(s)
 
-The Load JSON File(s) feature allows you to load multiple JSON files into the add-in, and then convert them to Excel sheets. This feature is only available to users who have subscribed to the add-in.
+The Load JSON File(s) feature allows you to load multiple JSON files into JSON to Excel, and then convert them to Excel sheets. This feature is only available to users who have subscribed to JSON to Excel.
 
 After each conversion, a report will be generated, which includes:
 - The filename of selected JSON file(s)
@@ -150,10 +149,14 @@ After each conversion, a report will be generated, which includes:
 
 Note: Max 20 files per conversion.
 
-## More features
+## 6.3 More features
 
 If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn
 
-## Aftersale services
+## 6.4 Pro Code
+
+Pro Code is the `email address` you used during the checkout process of the JSON to Excel on Stripe. This code is required to access pro features.
+
+## 6.5 Aftersale services
 
 You can contact us via email at he.yang@wtsolutions.cn for any questions or concerns. We will try our best to respond you within 24 hours, but not later than 72 hours. Please include your `Pro Code` in the email if your question is related to your subscription.
