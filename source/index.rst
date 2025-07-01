@@ -4,7 +4,8 @@
    contain the root `toctree` directive.
 
 JSON-to-Excel by WTSolutions Convert JSON to Excel within Excel (web online, windows, mac, linux)
-=======================================================
+==================================================================================================
+
 JSON to Excel is a **Microsoft Excel add-in** or **Web Application** which can convert JSON to Excel. Both Flat/Nested JSON can be converted.
 
 中文版文档 https://JSON-to-Excel.wtsolutions.cn/zh-cn/latest/
@@ -15,6 +16,7 @@ JSON to Excel is a **Microsoft Excel add-in** or **Web Application** which can c
 
    quickstart.md
    profeatures.md
+   pricing.md
    contact.md
    termsofuse.md
    privacy.md
