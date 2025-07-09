@@ -34,7 +34,7 @@ Each Pro code is valid for both [Excel-to-JSON](https://excel-to-json.wtsolution
 
 ### Subscribe Now
 
-<button onclick='checkoutnow()'>Subscribe Now</button>
+<button onclick='checkoutnow()'>Start 7 Days Free Trial Now</button>
 
 For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
