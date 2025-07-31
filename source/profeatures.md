@@ -33,6 +33,8 @@ After each conversion, a report will be generated, which includes:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DBd1LzD3HgA?si=jiBqCMlkY7YOBiMm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+
+
 ### Acceptable JSON format
 
 #### Required Format
@@ -68,6 +70,18 @@ The input must be a valid JSON array containing objects. Each object in the arra
 ### Valid and Invalid JSON Data Examples
 
 Refer to [Examples](examples.md) for valid and invalid JSON data examples.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8772217510669640"
+     data-ad-slot="2653271427"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.2 Conversion Settings
 
