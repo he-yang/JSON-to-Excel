@@ -17,7 +17,7 @@ Make sure you properly handle CORS issues by setting up CORS headers.
 
 ## 4.2 Access
 
-Send `POST` request to access point `https://mcp.wtsolutions.cn/json-to-excel-api` with required parameters described below in usage section. 
+Send `POST` request to access point `https://mcp2.wtsolutions.cn/json-to-excel-api` with required parameters described below in usage section. 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
