@@ -6,7 +6,8 @@ JSON-to-Excel by WTSolutions is a series of tools which can convert JSON to Exce
 
 * <mark>Web App: Convert JSON to Excel directly in Web Browser.</mark> (<-- You are here)
 * [Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly. ](ExcelAddIn.md)
-
+* [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
+* [MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
 
 ## 2.1 Requirements
 

@@ -1,8 +1,8 @@
-# 4. Examples
+# 7. Examples
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/examples.html)
 
-## 4.1 Valid JSON example
+## 7.1 Valid JSON example
 ```json
 // simple, one flat object
 {"name": "John", "age": 30}
@@ -40,7 +40,7 @@
 ]
 
 ```
-## 4.2 Invalid JSON Examples
+## 7.2 Invalid JSON Examples
 
 ```json
 // Not wrapped in array
@@ -76,7 +76,7 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 4.3 Conversion Examples
+## 7.3 Conversion Examples
 
 ### Sample JSON to Excel
 

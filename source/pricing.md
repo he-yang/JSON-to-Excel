@@ -1,4 +1,4 @@
-# 5. Pricing
+# 8. Pricing
 
 <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
 <script type="text/javascript">
