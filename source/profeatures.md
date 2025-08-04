@@ -51,11 +51,95 @@ The input must be a valid JSON array containing objects. Each object in the arra
 ]
 ```
 
-#### JSON Format Rules
+#### JSON Format Schema
 
-- Must be wrapped in square brackets [], as array
-- Must contain at least one object {}
-- Each object must have at least one property
+The JSON data must conform to one of the following structures:
+
+1. **Array of Objects**:
+   - Must be wrapped in square brackets `[]`
+   - Must contain between 1 and 1000 items
+   - Each item must be an object `{}` with 1-100 properties
+   - Array cannot contain arrays, null values, strings, numbers, booleans, or empty objects
+
+2. **Single Object**:
+   - Must be wrapped in curly braces `{}`
+   - Must contain between 1 and 100 properties
+   - Cannot be an array, null value, string, number, boolean, or empty object
+
+All objects can have additional properties beyond those defined in the schema.
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "oneOf": [
+    {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1000,
+      "items": {
+        "type": "object",
+        "minProperties": 1,
+        "maxProperties": 100,
+        "additionalProperties": true
+      },
+      "not": {
+        "contains": {
+          "anyOf": [
+            {
+              "type": "array"
+            },
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "object",
+              "maxProperties": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 100,
+      "additionalProperties": true,
+      "not": {
+        "anyOf": [
+          {
+            "type": "array"
+          },
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          },
+          {
+            "type": "number"
+          },
+          {
+            "type": "boolean"
+          },
+          {
+            "type": "object",
+            "maxProperties": 0
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 #### Supported Value Types
 
