@@ -10,9 +10,10 @@ JSON-to-Excel offers a set of pro features that enhance the functionality. These
 |:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|❌|❌|
 
-There are two ways to load JSON data:
+There are three ways to load JSON data:
 - Copy and Paste your JSON data in the text area
 - Click on the Load JSON File(s) file selector, and select your JSON file(s) from your local computer, for batch processing [Pro Features](pricing.md), max 20 files can be loaded at once.
+- Load JSON File(s) from Web URLs, for batch processing [Pro Features](pricing.md), max 20 URLs.
 > Note, the JSON data shall meet the requirements listed in the below [Section Acceptable JSON format](profeatures.md#acceptable-json-format).
 
 ### Copy and Paste JSON data
@@ -35,7 +36,18 @@ After each conversion, a report will be generated, which includes:
 #### Load JSON File(s) video demo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DBd1LzD3HgA?si=jiBqCMlkY7YOBiMm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Load JSON File(s) from Web URLs
 
+The Load JSON File(s) from Web URLs feature allows you to load multiple JSON files into JSON to Excel, and then convert them to Excel sheets. 
+
+After each conversion, a report will be generated, which includes:
+- The filename of selected URL(s)
+- The conversion result (success or failure)
+- The sheet name if success
+- The error message if failure
+
+> Note, Max 20 URLs per conversion.
+> Note, the JSON data shall meet the requirements listed in the below Section Acceptable JSON format.
 
 
 ### Acceptable JSON format
