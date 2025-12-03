@@ -1,14 +1,14 @@
-# 6. JSON Data and Conversion Settings
+# 7. JSON Data and Conversion Settings
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/profeatures.html)
 
 JSON-to-Excel offers a set of pro features that enhance the functionality. These rules marked as [Pro Feature](pricing.md) are only available to users who have subscribed the tools.
 
 
-## 6.1 JSON Data
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
-|:--:|:--:|:--:|:--:|:--:|
-|Applicable|✅|✅|❌|❌|
+## 7.1 JSON Data
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|❌|
 
 There are three ways to load JSON data:
 - Copy and Paste your JSON data in the text area
@@ -22,7 +22,7 @@ Copy and Paste your JSON data in the text area, you may see JSON data preview be
 
 ### Load JSON File(s)
 
-The Load JSON File(s) feature allows you to load multiple JSON files into JSON to Excel, and then convert them to Excel sheets. 
+The Load JSON File(s) feature allows you to load multiple JSON files into JSON to Excel, and then convert them to Excel/WPS sheets. 
 
 After each conversion, a report will be generated, which includes:
 - The filename of selected JSON file(s)
@@ -38,7 +38,7 @@ After each conversion, a report will be generated, which includes:
 
 ### Load JSON File(s) from Web URLs
 
-The Load JSON File(s) from Web URLs feature allows you to load multiple JSON files into JSON to Excel, and then convert them to Excel sheets. 
+The Load JSON File(s) from Web URLs feature allows you to load multiple JSON files into JSON to Excel, and then convert them to Excel/WPS sheets. 
 
 After each conversion, a report will be generated, which includes:
 - The filename of selected URL(s)
@@ -182,12 +182,12 @@ Refer to [Examples](examples.md) for valid and invalid JSON data examples.
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 6.2 Conversion Settings
+## 7.2 Conversion Settings
 
 ### Conversion Mode
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
-|:--:|:--:|:--:|:--:|:--:|
-|Applicable|✅|✅|❌|❌|
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|❌|
 
 There are two conversion modes: Flat JSON Mode and Nested JSON Mode. Refer to [Examples](examples.md#output) for the difference between these two modes.
 
@@ -201,9 +201,9 @@ There are two conversion modes: Flat JSON Mode and Nested JSON Mode. Refer to [E
    - Unlimited depth converted by default. Customize max depth (1 to 20, or unlimited) of nested objects using Max Depth Nested setting using [Pro Features](pricing.md)
 
 ### Nested Delimeter
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
-|:--:|:--:|:--:|:--:|:--:|
-|Applicable|✅|✅|❌|❌|
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|❌|
 
 The Nested Delimeter specifies how to handle nested objects in JSON. You can choose from:
 - Dot (.) - Default
@@ -252,9 +252,9 @@ Using Forward Slash(/):
 |2|Lily|Jaskson|15|
 
 ### Max Depth Nested
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
-|:--:|:--:|:--:|:--:|:--:|
-|Applicable|✅|✅|❌|❌|
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|❌|
 
 The Max Depth setting controls how deep JSON to Excel will process nested objects:
 - Default: unlimited number of depths
@@ -305,10 +305,10 @@ Using Dot(.) as delimiter:
 |2|Lily|lily@school.com|098-765-4321|{"street":"456 School Ave","city":"Shanghai"}|
 
 
-## 4.3 No Ads
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[API](API.md)|[MCP](MCP.md)|
-|:--:|:--:|:--:|:--:|:--:|
-|Applicable|✅|✅|❌|❌|
+## 7.3 No Ads
+||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|Applicable|✅|✅|✅|❌|❌|
 
 If you have a valid subscription to JSON to Excel, you will not see ads after a successful conversion with a valid Pro Code.
 
@@ -319,11 +319,11 @@ Ads will be displayed if you do not have a valid Pro Code, or if you do not have
 > Note, If you still see ads displayed from time to time, try to make a conversion with a valid Pro Code, then restart JSON to Excel.
 
 
-## 6.4 More features
+## 7.4 More features
 
 If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn
 
-## 6.5 Pro Code
+## 7.5 Pro Code
 
 Pro Code is the `email address` you used during the checkout process of the JSON to Excel on Stripe or Paddle. This code is required to access pro features.
 

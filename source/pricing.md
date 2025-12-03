@@ -1,4 +1,4 @@
-# 8. Pricing
+# 9. Pricing
 
 <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
 <script type="text/javascript">
@@ -34,8 +34,10 @@ Each Pro code is valid for both [Excel-to-JSON](https://excel-to-json.wtsolution
 - Excel to JSON Web App
 - Excel to JSON Excel Addin
 - Excel to JSON API
+- Excel to JSON WPS AddIn
 - [JSON to Excel Web App](WebApp.md)
 - [JSON to Excel Excel AddIn](ExcelAddIn.md)
+- [JSON to Excel WPS AddIn](WPSAddIn.md)
 
 ### Subscribe though Paddle
 

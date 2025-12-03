@@ -1,28 +1,29 @@
-# 4. API (JSON to Excel by HTTPS POST request)
+# 5. API (JSON to Excel by HTTPS POST request)
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/API.html)
 
-JSON-to-Excel by WTSolutions is a series of tools which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, web applications:
+JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, WPS add-ins, web applications, API service and MCP service.
 
 * [Web App: Convert JSON to Excel directly in Web Browser.](WebApp.md)
 * [Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly. ](ExcelAddIn.md)
+* [WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. ](WPSAddIn.md)
 * <mark>API: Convert JSON to Excel in API by HTTPS POST request</mark> (<-- You are here)
 * [MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
 
 
-## 4.1 Requirements
+## 5.1 Requirements
 
 HTTPS post request tool, e.g. Postman, Curl, Python Requests, Javascript fetch, etc.
 Make sure you properly handle CORS issues by setting up CORS headers.
 
-## 4.2 Access
+## 5.2 Access
 
 Send `POST` request to access point `https://mcp2.wtsolutions.cn/json-to-excel-api` with required parameters described below in usage section. 
 
 There are two ways to use this API:
 
-- Standard way(Section 4.3): free of charge, with standard conversion rules.
-- Pro way (Section 4.4): with custom conversion rules, requires a valid subscription to JSON to Excel by WTSolutions service. Please visit [Pricing](https://json-to-excel.wtsolutions.cn/en/latest/pricing.html) for more details.
+- Standard way(Section 5.3): free of charge, with standard conversion rules.
+- Pro way (Section 5.4): with custom conversion rules, requires a valid subscription to JSON to Excel by WTSolutions service. Please visit [Pricing](https://json-to-excel.wtsolutions.cn/en/latest/pricing.html) for more details.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -36,15 +37,15 @@ There are two ways to use this API:
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 4.3 Usage - Standard
+## 5.3 Usage - Standard
 
 The JSON-to-Excel API provides a simple way to convert JSON into CSV format. This API accepts
 - JSON format data
 - URL pointing to an JSON file
 
-In this section, you can find a standard way to use this API, and this way is free of charge. If you would like to make some customized conversion, please refer to Section 4.4 Usage – Pro.
+In this section, you can find a standard way to use this API, and this way is free of charge. If you would like to make some customized conversion, please refer to Section 5.4 Usage – Pro.
 
-### 4.3.1 Request Format
+### 5.3.1 Request Format
 
 The API accepts POST requests with a `application/json` body containing one of the following parameter:
 
@@ -75,7 +76,7 @@ When sending `url`
 
 
 
-### 4.3.2 Response Format
+### 5.3.2 Response Format
 The API returns a JSON object with the following structure:
 
 | Field   | Type    | Description                                                                 |
@@ -85,7 +86,7 @@ The API returns a JSON object with the following structure:
 | data    | string  | Converted CSV data string, '' if there was an error. This CSV data can be easily imported into Excel.                                      |
 
 
-### 4.3.3 Example
+### 5.3.3 Example
 
 #### Example Request with 'data'
 
@@ -145,11 +146,11 @@ The API automatically handles different data types in JSON:
 
 
 
-## 4.4 Usage - Pro
+## 5.4 Usage - Pro
 
-This section – Pro is for users who have purchased a [subscription](pricing.md) to JSON to Excel service. If you have not purchased a subscription, please refer to Section 4.3 Usage – Standard.
+This section – Pro is for users who have purchased a [subscription](pricing.md) to JSON to Excel service. If you have not purchased a subscription, please refer to Section 5.3 Usage – Standard.
 
-### 4.4.1 Request Format
+### 5.4.1 Request Format
 
 The API accepts POST requests with a `application/json` body containing one of the following parameter:
 
@@ -161,7 +162,7 @@ The API accepts POST requests with a `application/json` body containing one of t
 
 > Note: 
 > - Provide either `data` or `url`, not both.
-> - `options` is mandatory if you want to use custom conversion settings. If you do not have a valid Pro Code, please refer to Section 4.3 Usage – Standard.
+> - `options` is mandatory if you want to use custom conversion settings. If you do not have a valid Pro Code, please refer to Section 5.3 Usage – Standard.
 
 #### Requirements on data and url
 
@@ -180,7 +181,7 @@ When sending `url`
 > - If the JSON is a single object, it will be converted into a CSV with key-value pairs.
 > - This tool returns CSV-formatted data that can be easily converted/imported to Excel.
 
-### 4.4.2 Options Object
+### 5.4.2 Options Object
 
 The options object can contain the following properties:
 
@@ -192,10 +193,10 @@ The options object can contain the following properties:
 |maxDepth|string| "unlimited"| Maximum depth for nested JSON objects when using jsonMode: “nested”. For maxDepth, "unlimited", "1" ~ "20" acceptable.|
 
 Note:
-> - proCode is mandatory. If you do not have a valid [Pro Code](pricing.md), please refer to Section 4.3 Usage – Standard.
+> - proCode is mandatory. If you do not have a valid [Pro Code](pricing.md), please refer to Section 5.3 Usage – Standard.
 > - Detailed conversion rules can be found in [Pro Features](profeatures.md).
 
-### 4.3.2 Response Format
+### 5.4.2 Response Format
 The API returns a JSON object with the following structure:
 
 | Field   | Type    | Description                                                                 |
@@ -205,7 +206,7 @@ The API returns a JSON object with the following structure:
 | data    | string  | Converted CSV data string, '' if there was an error. This CSV data can be easily imported into Excel.                                      |
 
 
-### 4.4.3 Example
+### 5.4.3 Example
 
 #### Example Request with 'data'
 
@@ -243,7 +244,7 @@ Response:
 }
 ```
 
-### 4.4.4 Data Type Handling
+### 5.4.4 Data Type Handling
 
 The API automatically handles different data types in JSON:
 
@@ -254,7 +255,7 @@ The API automatically handles different data types in JSON:
 - **Objects**: Converted to JSON.stringify object string
 
 
-## 4.5 Error Handling
+## 5.5 Error Handling
 The API returns descriptive error messages for common issues:
 - `Invalid JSON format`: When input data is not a valid JSON string
 - `Empty JSON data`: When input data is an empty JSON string

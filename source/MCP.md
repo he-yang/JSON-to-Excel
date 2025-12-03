@@ -1,4 +1,4 @@
-# 5. MCP Server (JSON to Excel MCP Server)
+# 6. MCP Server (JSON to Excel MCP Server)
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/MCP.html)
 
@@ -6,6 +6,7 @@ JSON-to-Excel by WTSolutions is a series of tools which can convert JSON to Exce
 
 * [Web App: Convert JSON to Excel directly in Web Browser.](WebApp.md)
 * [Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly. ](ExcelAddIn.md)
+* [WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. ](WPSAddIn.md)
 * [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
 * <mark>MCP Server: Convert JSON to Excel in MCP Server</mark> (<-- You are here)
 

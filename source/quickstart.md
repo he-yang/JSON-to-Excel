@@ -3,10 +3,11 @@
 
 [中文](https://json-to-excel.wtsolutions.cn/zh/latest/quickstart.html)
 
-The JSON-to-Excel toolkit launched by WTSolutions can convert both flat and nested JSON data into Excel files. This toolkit provides a comprehensive solution for "JSON-to-Excel" scenarios, including Excel add-ins and web applications:
+JSON-to-Excel by WTSolutions is a toolkit which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, WPS add-ins, web applications, API service and MCP service.:
 
 * [Web App: Perform JSON-to-Excel operations directly in the browser. ](WebApp.md)
 * [Excel Add-in: Achieve JSON-to-Excel conversion within the Excel environment, seamlessly integrated with Excel. ](ExcelAddIn.md)
+* [WPS Add-in: Achieve JSON-to-Excel conversion within the WPS environment, seamlessly integrated with WPS. ](WPSAddIn.md)
 * [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
 * [MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
 
