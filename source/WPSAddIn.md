@@ -43,8 +43,12 @@ Available only in Simplified Chinese.
 ### Video Guide to Use add-in (side-load in WPS)
 
 Using WPS add-in is the same as using Excel add-in, refer to the following video guide.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nn3AIptQ-p8?si=4DSrC5wog7yEmPyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+Refer to the following video for a simple demo of using WPS add-in, available only in Simplified Chinese.
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115658553562052&bvid=BV1Ky2hB2EfB&cid=34486682667&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
