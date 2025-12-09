@@ -16,7 +16,7 @@ release = '4.0.0.0'
 extensions = ['myst_parser','sphinx_sitemap']
 html_baseurl = 'https://json-to-excel.wtsolutions.cn/en/latest/'
 sitemap_url_scheme = "{link}"
-html_extra_path = ['robots.txt','ads.txt']
+html_extra_path = ['robots.txt','ads.txt','baidu_verify_codeva-NQXz6GN9nc.html','ByteDanceVerify.html']
 
 templates_path = ['_templates']
 exclude_patterns = []
