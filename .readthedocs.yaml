@@ -27,9 +27,3 @@ sphinx:
 python:
    install:
    - requirements: source/requirements.txt
-
-additional_files:
-  - robots.txt
-  - ByteDanceVerify.html
-  - ads.txt
-  - baidu_verify_codeva-NQXz6GN9nc.html
