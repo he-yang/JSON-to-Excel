@@ -14,7 +14,7 @@ release = '4.0.0.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['myst_parser','sphinx_sitemap']
-html_baseurl = 'https://json-to-excel.wtsolutions.cn/en/latest/'
+html_baseurl = 'https://json-to-excel.wtsolutions.cn/'
 sitemap_url_scheme = "{link}"
 html_extra_path = ['robots.txt','ads.txt','baidu_verify_codeva-NQXz6GN9nc.html','ByteDanceVerify.html']
 
