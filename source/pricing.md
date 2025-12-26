@@ -33,11 +33,14 @@ Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial 
 Each Pro code is valid for both [Excel-to-JSON](https://excel-to-json.wtsolutions.cn/en/latest/) and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) tools provided by WTSolutions:
 - Excel to JSON Web App
 - Excel to JSON Excel Addin
-- Excel to JSON API
 - Excel to JSON WPS AddIn
+- Excel to JSON MCP (NPX connection only)
 - [JSON to Excel Web App](WebApp.md)
 - [JSON to Excel Excel AddIn](ExcelAddIn.md)
 - [JSON to Excel WPS AddIn](WPSAddIn.md)
+- [JSON to Excel MCP](MCP.md) (NPX connection only)
+
+
 
 ### Subscribe though Paddle
 
