@@ -26,6 +26,7 @@ Refer to `Excel-to-JSON by WTSolutions <https://excel-to-json.wtsolutions.cn/>`_
    :maxdepth: 2
    :caption: Contents:
 
+   
    quickstart.md
    WebApp.md
    ExcelAddIn.md
@@ -35,6 +36,7 @@ Refer to `Excel-to-JSON by WTSolutions <https://excel-to-json.wtsolutions.cn/>`_
    profeatures.md
    examples.md
    pricing.md
+   announcement.md
    contact.md
    termsofuse.md
    privacy.md
