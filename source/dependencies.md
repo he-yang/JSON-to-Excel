@@ -1,5 +1,6 @@
 
 # Dependencies
+
 * [Bootstrap](https://github.com/twbs/bootstrap) - [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE)
 * [jQuery](https://github.com/jquery/jquery) - [MIT License](https://github.com/jquery/jquery/blob/main/LICENSE.txt)
 * [flat](https://github.com/hughsk/flat) - [BSD-3-Clause License](https://github.com/hughsk/flat/blob/master/LICENSE)

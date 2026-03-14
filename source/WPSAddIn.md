@@ -36,7 +36,7 @@ Available only in Simplified Chinese.
 * In the [Conversion Settings](profeatures.md), select conversion mode etc.
 * Load your JSON data (Choose one of the following two ways)
     1. Copy and Paste your JSON data in the text area, or
-    2. Click on the Load JSON File(s) file selector, and select your JSON file(s) from your local computer, for batch processing [Pro Features](pricing.md), max 20 files can be loaded at once.
+    2. Click on the Load JSON File(s) file selector, and select your JSON file(s) from your local computer, for batch processing, max 20 files can be loaded at once.
 * Click on Go button
 * Your JSON data will be converted to WPS, and you can find one newly added sheet to your WPS.
 
@@ -71,4 +71,4 @@ Refer to [JSON Data and Conversion Settings](profeatures.md) for more details.
 - Maximum 1000 objects (rows) per conversion
 - Maximum 100 unique properties (columns) per dataset
 - Arrays in values will be converted to strings in WPS
-- Maximum 20 loaded local JSON files can be converted at once [Pro Feature](pricing.md)
+- Maximum 20 loaded local JSON files can be converted at once

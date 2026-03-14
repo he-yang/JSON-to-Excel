@@ -13,9 +13,22 @@
   }  
 </script>
 
+
+## Free Version and Pro Version
+
+Free Version:
+- Convert up to 6 rows of data per conversion.
+
+Pro Version:
+- Unlimited data conversion.
+
+## Pro Code
+
+Pro Code is the `email address` you used during the checkout process of the JSON-to-Excel on Paddle. This code is required to have unlimited data conversion.
+
 ##  Subscription, Payment and Cancellation
 
-7 days free trial, then you will be charged monthly at one of the following rates (excluding tax) for the Pro Features. You can cancel your subscription at any time before the 7th day, and you will not be charged:
+7 days free trial, then you will be charged monthly at one of the following rates (excluding tax). You can cancel your subscription at any time before the 7th day, and you will not be charged:
 
 | Billing Cycle | Price (USD) | Subscribe through Paddle |
 | :---: | :---: | :---: |
@@ -28,7 +41,7 @@
 * Price in EUR, CNY, HKD will be automatically calculated and displayed based on your location.
 * Tax will be automatically calculated based on your location.
 
-Each Pro Code can offer 10 devices to access Pro Features.After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
+Each Pro Code can be used on up to 10 devices. After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
 
 Each Pro code is valid for both [Excel-to-JSON](https://excel-to-json.wtsolutions.cn/en/latest/) and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) tools provided by WTSolutions:
 - Excel to JSON Web App
@@ -54,7 +67,6 @@ The subscription is managed through [Paddle](https://paddle.com/).
 - BanContact in BE
 
 
-
 ### Subscribe Now
 
 <button onclick='checkoutnow("pri_01jz0fdq3rm19fn5bqrn86tnjy")'>Start 7 Day Free Trial Now, then USD $2.66 / month (excluding tax)</button>
@@ -66,13 +78,13 @@ For subscription terms, kindly refer to the [Terms of Use](termsofuse.md)
 
 ### Cancel or Manage Subcription (Paddle)
 
-You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features. Management of subscription can be performed through paddle customer portal.
+You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the unlimited data conversion Pro Version. Management of subscription can be performed through paddle customer portal.
 
 [https://customer-portal.paddle.com/cpl_01jxkve1dh6g9v8j172pybc4nf](https://customer-portal.paddle.com/cpl_01jxkve1dh6g9v8j172pybc4nf)
 
 ### Cancel or Manage Subcription (Stripe)
 
-You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features.
+You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the unlimited data conversion Pro Version.
 
 [https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00](https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00)
 

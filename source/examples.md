@@ -115,7 +115,6 @@
 |John|john@example.com|1234567890|
 |Jane|jane@example.com|987654321|
 
-   - Customize delimiter (dot, underscore, double underscore, slash) using Nested Delimeter setting using [Pro Features](profeatures.md)
-   - Customize max depth (1 to 20, or unlimited) of nested objects using Max Depth Nested setting using [Pro Features](profeatures.md)
-   
+   - Customize delimiter (dot, underscore, double underscore, slash) using Nested Delimeter setting 
+   - Customize max depth (1 to 20, or unlimited) of nested objects using Max Depth Nested setting 
 

@@ -1,6 +1,6 @@
 # Service Agreement
 
-**Effective Date:** 2025-12-04
+**Effective Date:** 2026-03-14
 
 This service agreement is applicable to JSON to Excel web app, and JSON to Excel Excel add-in and WPS add-in.
 For JSON to Excel api and JSON to Excel MCP service, refer to https://github.com/he-yang/json-to-excel-api for service agreement.
@@ -11,7 +11,7 @@ Welcome to the JSON-to-Excel service ("Service"). This Service Agreement ("Agree
 
 ## 2. Description of Service
 
-The JSON-to-Excel Service is a Microsoft Excel add-in, WPS add-in or web application that allows users to convert JSON files into Excel format within Excel/WPS. The Service is designed to facilitate the conversion of data from JSON format into Excel spreadsheets/WPS workbook, which can be used for data analysis, reporting, and other purposes. For the Pro features, a paid subscription is required.
+The JSON-to-Excel Service is a Microsoft Excel add-in, WPS add-in or web application that allows users to convert JSON files into Excel format within Excel/WPS. The Service is designed to facilitate the conversion of data from JSON format into Excel spreadsheets/WPS workbook, which can be used for data analysis, reporting, and other purposes. For the Pro Version, a paid subscription is required.
 
 ## 3. User Requirements
 
@@ -31,7 +31,7 @@ We grant you a limited, non-exclusive, non-transferable, revocable license to us
 
 ## 5. Subscription Terms
 
-The Pro features of JSON-to-Excel are available through a monthly subscription. Key terms include:
+The Pro Version of JSON-to-Excel are available through a monthly subscription. Key terms include:
 - A 7-day free trial period is offered for new subscribers
 - You may cancel your subscription at any time during the trial period without charge
 - After the trial period, your subscription will automatically renew each month

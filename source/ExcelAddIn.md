@@ -33,15 +33,13 @@ JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Exc
 ### Video Guide to Get add-in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U3uQQ9i6IGs?si=kZFaGT89tT3wk21C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 ## 3.3 Usage
 
 * Prepare your JSON data
 * In the [Conversion Settings](profeatures.md), select conversion mode etc.
 * Load your JSON data (Choose one of the following two ways)
     1. Copy and Paste your JSON data in the text area, or
-    2. Click on the Load JSON File(s) file selector, and select your JSON file(s) from your local computer, for batch processing [Pro Features](pricing.md), max 20 files can be loaded at once.
+    2. Click on the Load JSON File(s) file selector, and select your JSON file(s) from your local computer, for batch processing, max 20 files can be loaded at once.
 * Click on Go button
 * Your JSON data will be converted to Excel, and you can find one newly added sheet to your Excel.
 
@@ -71,4 +69,4 @@ Refer to [JSON Data and Conversion Settings](profeatures.md) for more details.
 - Maximum 1000 objects (rows) per conversion
 - Maximum 100 unique properties (columns) per dataset
 - Arrays in values will be converted to strings in Excel
-- Maximum 20 loaded local JSON files can be converted at once [Pro Feature](pricing.md)
+- Maximum 20 loaded local JSON files can be converted at once

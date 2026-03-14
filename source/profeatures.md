@@ -2,7 +2,7 @@
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/profeatures.html)
 
-JSON-to-Excel offers a set of pro features that enhance the functionality. These rules marked as [Pro Feature](pricing.md) are only available to users who have subscribed the tools.
+JSON-to-Excel offers a set of pro features that enhance the functionality. 
 
 
 ## 7.1 JSON Data
@@ -12,8 +12,8 @@ JSON-to-Excel offers a set of pro features that enhance the functionality. These
 
 There are three ways to load JSON data:
 - Copy and Paste your JSON data in the text area
-- Click on the Load JSON File(s) file selector, and select your JSON file(s) from your local computer, for batch processing [Pro Features](pricing.md), max 20 files can be loaded at once.
-- Load JSON File(s) from Web URLs, for batch processing [Pro Features](pricing.md), max 20 URLs.
+- Click on the Load JSON File(s) file selector, and select your JSON file(s) from your local computer, for batch processing , max 20 files can be loaded at once.
+- Load JSON File(s) from Web URLs, for batch processing, max 20 URLs.
 > Note, the JSON data shall meet the requirements listed in the below [Section Acceptable JSON format](profeatures.md#acceptable-json-format).
 
 ### Copy and Paste JSON data
@@ -197,8 +197,8 @@ There are two conversion modes: Flat JSON Mode and Nested JSON Mode. Refer to [E
    - Each property becomes a column in Excel, property name as column name
 - Nested JSON Mode
    - Use for JSON objects with nested structures
-   - Nested properties are flattened using dot/underscore/doubleunderscore/slash delimiter [Pro Feature](pricing.md)
-   - Unlimited depth converted by default. Customize max depth (1 to 20, or unlimited) of nested objects using Max Depth Nested setting using [Pro Features](pricing.md)
+   - Nested properties are flattened using dot/underscore/doubleunderscore/slash delimiter 
+   - Unlimited depth converted by default. Customize max depth (1 to 20, or unlimited) of nested objects using Max Depth Nested setting
 
 ### Nested Delimeter
 ||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
@@ -207,9 +207,9 @@ There are two conversion modes: Flat JSON Mode and Nested JSON Mode. Refer to [E
 
 The Nested Delimeter specifies how to handle nested objects in JSON. You can choose from:
 - Dot (.) - Default
-- Underscore (_) [Pro Feature](pricing.md)
-- Double Underscore (__) [Pro Feature](pricing.md)
-- Forward slash (/) [Pro Feature](pricing.md)
+- Underscore (_) 
+- Double Underscore (__) 
+- Forward slash (/) 
 
 For example, with this JSON:
 
@@ -258,7 +258,7 @@ Using Forward Slash(/):
 
 The Max Depth setting controls how deep JSON to Excel will process nested objects:
 - Default: unlimited number of depths
-- Acceptable Range: 1 ~ 20  [Pro Feature](pricing.md)
+- Acceptable Range: 1 ~ 20  
 
 > Note: When Max Depth is set to a value between 1 to 20, you must use Nested JSON Mode.
 
@@ -325,6 +325,6 @@ If you have subscribed, and would like to see more features, kindly please send 
 
 ## 7.5 Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the JSON to Excel on Stripe or Paddle. This code is required to access pro features.
+Pro Code is the `email address` you used during the checkout process of the JSON to Excel on Stripe or Paddle. This code is required to have unlimited data conversion.
 
 

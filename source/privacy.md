@@ -1,7 +1,8 @@
 # Privacy Policy
 
-**Effective Date:** 2025-12-04
-**Last Revised:** 2025-12-04
+**Effective Date:** 2026-03-14
+**Last Revised:** 2026-03-14
+
 
 
 This privacy policy is applicable to JSON to Excel web app, and JSON to Excel Excel add-in, WPS add-in.
@@ -29,11 +30,11 @@ We want to assure you that:
 
 ## 4. Data We Collect for Subscription Management
 
-For Pro feature subscriptions, we collect and store:
+For Pro Version subscriptions, we collect and store:
 - Your name and contact information for subscription management purposes.
 - Payment information (processed by our secure payment gateway Stripe or Paddle)
 - Subscription status and billing history
-- Usage data related to Pro features for service improvement, such as Pro Code.
+- Usage data related to Pro Version for service improvement, such as Pro Code.
 
 ## 5. How the Service Works
 
