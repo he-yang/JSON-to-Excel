@@ -1,11 +1,11 @@
-# 7. JSON Data and Conversion Settings
+# JSON Data and Conversion Settings
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/profeatures.html)
 
 JSON-to-Excel offers a set of pro features that enhance the functionality. 
 
 
-## 7.1 JSON Data
+## JSON Data
 ||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
@@ -182,7 +182,7 @@ Refer to [Examples](examples.md) for valid and invalid JSON data examples.
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 7.2 Conversion Settings
+## Conversion Settings
 
 ### Conversion Mode
 ||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
@@ -305,7 +305,7 @@ Using Dot(.) as delimiter:
 |2|Lily|lily@school.com|098-765-4321|{"street":"456 School Ave","city":"Shanghai"}|
 
 
-## 7.3 No Ads
+## No Ads
 ||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
@@ -319,11 +319,11 @@ Ads will be displayed if you do not have a valid Pro Code, or if you do not have
 > Note, If you still see ads displayed from time to time, try to make a conversion with a valid Pro Code, then restart JSON to Excel.
 
 
-## 7.4 More features
+## More features
 
 If you have subscribed, and would like to see more features, kindly please send us email at he.yang@wtsolutions.cn
 
-## 7.5 Pro Code
+## Pro Code
 
 Pro Code is the `email address` you used during the checkout process of the JSON to Excel on Stripe or Paddle. This code is required to have unlimited data conversion.
 

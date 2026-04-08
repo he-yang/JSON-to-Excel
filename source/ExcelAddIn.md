@@ -1,17 +1,22 @@
-# 3. Excel Add-in (JSON-to-Excel Excel Add-in)
+# Excel Add-in (JSON-to-Excel Excel Add-in)
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/ExcelAddIn.html)
 
 JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, WPS add-ins, web applications, API service and MCP service.
 
-* [Web App: Convert JSON to Excel directly in Web Browser.](WebApp.md)
-* <mark>Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly.</mark> (<-- You are here)
-* [WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. ](WPSAddIn.md)
-* [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
-* [MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
+* Web Based Solutions
+     * [Web App: Convert JSON to Excel directly in Web Browser.](WebApp.md)
+     * <mark>Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly.</mark> (<-- You are here)
+     * [WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. ](WPSAddIn.md)
+     * [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
+* Localized Solutions
+     * [Localized MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
+     * Localized App, Coming soon.
+     * Localized Excel Add-in, Coming soon.
+     * Localized WPS Add-in, Coming soon.
 
 
-## 3.1 Requirements
+## Requirements
 
 * Excel 2013 Service Pack 1 or later, 
 * Excel 2016 for Mac, 
@@ -20,7 +25,7 @@ JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Exc
 * Office 365 etc.
 
 
-## 3.2 Access
+## Access
 
 * Open a new datasheet in Excel 2013/2016 or Excel Online or Office 365.
 * **Home** Tab or **Insert** Tab > Add-ins
@@ -33,7 +38,7 @@ JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Exc
 ### Video Guide to Get add-in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U3uQQ9i6IGs?si=kZFaGT89tT3wk21C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## 3.3 Usage
+## Usage
 
 * Prepare your JSON data
 * In the [Conversion Settings](profeatures.md), select conversion mode etc.
@@ -60,12 +65,12 @@ JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Exc
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 3.4 JSON Data and Conversion Settings
+## JSON Data and Conversion Settings
 
 Refer to [JSON Data and Conversion Settings](profeatures.md) for more details.
 
 
-## 3.5 Limitations
+## Limitations
 - Maximum 1000 objects (rows) per conversion
 - Maximum 100 unique properties (columns) per dataset
 - Arrays in values will be converted to strings in Excel

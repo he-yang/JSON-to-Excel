@@ -1,22 +1,27 @@
-# 5. API (JSON to Excel by HTTPS POST request)
+# API (JSON to Excel by HTTPS POST request)
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/API.html)
 
 JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, WPS add-ins, web applications, API service and MCP service.
 
-* [Web App: Convert JSON to Excel directly in Web Browser.](WebApp.md)
-* [Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly. ](ExcelAddIn.md)
-* [WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. ](WPSAddIn.md)
-* <mark>API: Convert JSON to Excel in API by HTTPS POST request</mark> (<-- You are here)
-* [MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
+* Web Based Solutions
+     * [Web App: Convert JSON to Excel directly in Web Browser.](WebApp.md)
+     * [Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly. ](ExcelAddIn.md)
+     * [WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. ](WPSAddIn.md)
+     * <mark>API: Convert JSON to Excel in API by HTTPS POST request</mark> (<-- You are here)
+* Localized Solutions
+     * [Localized MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
+     * Localized App, Coming soon.
+     * Localized Excel Add-in, Coming soon.
+     * Localized WPS Add-in, Coming soon.
 
 
-## 5.1 Requirements
+## Requirements
 
 HTTPS post request tool, e.g. Postman, Curl, Python Requests, Javascript fetch, etc.
 Make sure you properly handle CORS issues by setting up CORS headers.
 
-## 5.2 Access
+## Access
 
 Send `POST` request to access point `https://mcp2.wtsolutions.cn/json-to-excel-api` with required parameters described below in usage section. 
 
@@ -32,9 +37,9 @@ Send `POST` request to access point `https://mcp2.wtsolutions.cn/json-to-excel-a
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 5.3 Usage
+## Usage
 
-### 5.3.1 Request Format
+### Request Format
 
 The API accepts POST requests with a `application/json` body containing one of the following parameter:
 
@@ -66,7 +71,7 @@ When sending `url`
 > - If the JSON is a single object, it will be converted into a CSV with key-value pairs.
 > - This tool returns CSV-formatted data that can be easily converted/imported to Excel.
 
-### 5.4.2 Options Object
+### ptions Object
 
 The options object can contain the following properties:
 
@@ -81,7 +86,7 @@ Note:
 > - Pro Code is optional. If you do not have a valid [Pro Code](pricing.md), you can only process up to 6 rows of data.
 > - Detailed conversion rules can be found in [Conversion Settings](profeatures.md).
 
-### 5.4.2 Response Format
+### Response Format
 The API returns a JSON object with the following structure:
 
 | Field   | Type    | Description                                                                 |
@@ -91,7 +96,7 @@ The API returns a JSON object with the following structure:
 | data    | string  | Converted CSV data string, '' if there was an error. This CSV data can be easily imported into Excel.                                      |
 
 
-### 5.4.3 Example
+### Example
 
 #### Example Request with 'data'
 
@@ -129,7 +134,7 @@ Response:
 }
 ```
 
-### 5.4.4 Data Type Handling
+### Data Type Handling
 
 The API automatically handles different data types in JSON:
 
@@ -140,7 +145,7 @@ The API automatically handles different data types in JSON:
 - **Objects**: Converted to JSON.stringify object string
 
 
-## 5.5 Error Handling
+## Error Handling
 The API returns descriptive error messages for common issues:
 - `Invalid JSON format`: When input data is not a valid JSON string
 - `Empty JSON data`: When input data is an empty JSON string

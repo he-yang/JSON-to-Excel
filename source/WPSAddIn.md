@@ -1,23 +1,28 @@
-# 4. WPS Add-in (JSON-to-Excel WPS Add-in)
+# WPS Add-in (JSON-to-Excel WPS Add-in)
 
 [中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/WPSAddIn.html)
 
 
 JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, WPS add-ins, web applications, API service and MCP service.
 
-* [Web App: Convert JSON to Excel directly in Web Browser.](WebApp.md)
-* [Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly.](ExcelAddIn.md) 
-* <mark> WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. </mark> (<-- You are here)
-* [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
-* [MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
+ * Web Based Solutions
+      * [Web App: Convert JSON to Excel directly in Web Browser.](WebApp.md)
+      * [Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly.](ExcelAddIn.md) 
+      * <mark> WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. </mark> (<-- You are here)
+      * [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
+ * Localized Solutions
+      * [Localized MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
+      * Localized App, Coming soon.
+      * Localized Excel Add-in, Coming soon.
+      * Localized WPS Add-in, Coming soon.
 
 
-## 4.1 Requirements
+## Requirements
 
 * WPS on Windows, Latest version
 * WPS on Linux, Latest version.
 
-## 4.2 Access
+## Access
 
 * There are several steps to get WPS add-in (side-load in WPS)
 * Visit [https://json-to-wps-workbook.wtsolutions.cn/publish.html](https://json-to-wps-workbook.wtsolutions.cn/publish.html) for detailed steps. (avalibale only in Simplified Chinese)
@@ -30,7 +35,7 @@ Available only in Simplified Chinese.
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115644276153073&bvid=BV12LS2BaEBG&cid=34420558272&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
-## 4.3 Usage
+## Usage
 
 * Prepare your JSON data
 * In the [Conversion Settings](profeatures.md), select conversion mode etc.
@@ -62,12 +67,12 @@ Refer to the following video for a simple demo of using WPS add-in, available on
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 4.4 JSON Data and Conversion Settings
+## JSON Data and Conversion Settings
 
 Refer to [JSON Data and Conversion Settings](profeatures.md) for more details.
 
 
-## 4.5 Limitations
+## Limitations
 - Maximum 1000 objects (rows) per conversion
 - Maximum 100 unique properties (columns) per dataset
 - Arrays in values will be converted to strings in WPS
