@@ -9,17 +9,18 @@ JSON-to-Excel by WTSolutions Convert JSON to Excel within Excel (web online, win
 `中文 <https://JSON-to-Excel.wtsolutions.cn/zh-cn/latest/>`_
 
 
-JSON-to-Excel by WTSolutions is a toolkit which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, WPS add-ins, web applications, API service and MCP service.:
+JSON-to-Excel by WTSolutions is a toolkit which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, WPS add-ins, web applications, local app, API service and MCP service.:
 
 * Web Based Solutions
    * `Web App: Convert JSON to Excel directly in Web Browser. <WebApp.html>`_
    * `Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly. <ExcelAddIn.html>`_
    * `WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. <WPSAddIn.html>`_
    * `API: Convert JSON to Excel in API by HTTPS POST request <API.html>`_
+   * `MCP Server: Convert JSON to Excel in MCP Server <MCP.html>`_
 
 * Localized Solutions
-   * `Localized MCP Server: Convert JSON to Excel in MCP Server <MCP.html>`_
-   * Localized App, Coming soon.
+   
+   * `Localized App: Convert JSON to Excel in Localized App, works without Internet Connection. <LocalApp.html>`_
    * Localized Excel Add-in, Coming soon.
    * Localized WPS Add-in, Coming soon.
 
@@ -44,13 +45,15 @@ Refer to `Excel-to-JSON by WTSolutions <https://excel-to-json.wtsolutions.cn/>`_
    ExcelAddIn.md
    WPSAddIn.md
    API.md
+   MCP.md
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Localized Solutions
    :name: localizedsolutions
 
-   MCP.md
+   LocalApp.md
+   
 
 .. toctree::
    :maxdepth: 2

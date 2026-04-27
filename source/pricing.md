@@ -24,9 +24,15 @@ Pro Version:
 
 ## Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the JSON-to-Excel on Paddle. This code is required to have unlimited data conversion.
+* Web Based Solutions
+  * Pro Code is the `email address` you used during the checkout process of the JSON-to-Excel on Paddle. This code is required to have unlimited data conversion.
+  * For web based solutions, subscription (1 month, 3 months, 6 months, 1 year) is available.
 
-##  Subscription, Payment and Cancellation
+* Localized Solutions
+  * Pro Code is the code you will receive by email after checkout process. This code is required to have unlimited data conversion.
+  * For localized solutions, one-time purchase for lifetime use is available.
+
+##  Web Based Solutions Subscription, Payment and Cancellation
 
 7 days free trial, then you will be charged monthly at one of the following rates (excluding tax). You can cancel your subscription at any time before the 7th day, and you will not be charged:
 
@@ -41,9 +47,9 @@ Pro Code is the `email address` you used during the checkout process of the JSON
 * Price in EUR, CNY, HKD will be automatically calculated and displayed based on your location.
 * Tax will be automatically calculated based on your location.
 
-Each Pro Code can be used on up to 10 devices. After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
+Each Web Based Solutions Pro Code can be used on up to 10 devices. After the 7 day trial period, you may cancel your subscription at any time, which will take effect at the end of your current billing cycle.
 
-Each Pro code is valid for both [Excel-to-JSON](https://excel-to-json.wtsolutions.cn/en/latest/) and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) tools provided by WTSolutions:
+Each Web Based Solutions Pro code is valid for both [Excel-to-JSON](https://excel-to-json.wtsolutions.cn/en/latest/) and [JSON-to-Excel](https://json-to-excel.wtsolutions.cn/en/latest/) tools provided by WTSolutions:
 - Excel to JSON Web App
 - Excel to JSON Excel Addin
 - Excel to JSON WPS AddIn
@@ -87,6 +93,23 @@ You can cancel your subscription at any time. After the current billing cycle en
 You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the unlimited data conversion Pro Version.
 
 [https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00](https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00)
+
+
+
+## Localized Solutions Pro Code Purchase
+
+One-time purchase for lifetime use is available.
+
+### Purchase Now
+
+[https://buy.stripe.com/fZu14meuf38Mbgu3V83Je0C](https://buy.stripe.com/fZu14meuf38Mbgu3V83Je0C)
+
+Order Now at $14.99 -> $7.99 (excluding tax) for lifetime use (bound to one single device ID). Use promotion code `ExcelJSON202605` to enjoy discount. Promotion code expires on 20260531. Tax will be automatically calculated based on your location.
+
+After installing Local app, you will see a Device ID shown in the app. This Device ID is required to be filled in the checkout process. You should receive a Pro Code by email after checkout process. This code is required to have unlimited data conversion.
+
+Each localized solution Pro Code can offer 1 single device to access Pro Version, and each Pro Code is bound to one single device ID. No trial period provided for localized soltuions, if you would like to have a 7 day free trial, please use the web based solution subscription instead.
+
 
 
 ## Aftersale services

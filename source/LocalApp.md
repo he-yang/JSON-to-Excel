@@ -1,30 +1,30 @@
-# Web App (JSON-to-Excel Web App)
+# Local App (JSON-to-Excel Localized App)
 
-[中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/WebApp.html)
+[中文](https://json-to-excel.wtsolutions.cn/zh-cn/latest/LocalApp.html)
 
 JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Excel, both Flat and Nested JSON can be converted to Excel. It offers a full-scenario solution for "Converting JSON to Excel", including Excel add-ins, WPS add-ins, web applications, API service and MCP service.
 
 * Web Based Solutions
-     * <mark>Web App: Convert JSON to Excel directly in Web Browser.</mark> (<-- You are here)
+     * [Web App: Convert JSON to Excel directly in Web Browser](WebApp.md)
      * [Excel add-in: Convert JSON to Excel in Excel, works with Excel environment seamlessly. ](ExcelAddIn.md)
      * [WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. ](WPSAddIn.md)
      * [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
      * [MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
 * Localized Solutions
      
-     * [Localized App: Convert JSON to Excel in Localized App, works without Internet Connection](LocalApp.md)
+     * <mark>Localized App: Convert JSON to Excel in Localized App,works without Internet Connection.</mark>(<-- You are here)
      * Localized Excel Add-in, Coming soon.
      * Localized WPS Add-in, Coming soon.
 
 ## Requirements
 
-* A web browser that supports JavaScript, such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge etc.
-* A browser works on Windows, Mac, Linux, Android, iOS, etc.
+* Windows 10 or later
+* MacOS 11 or later
 
-## Access
+## Download
 
-* Open a web browser that supports JavaScript, such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge etc.
-* Open the following URL in your web browser: <a href="https://s.wtsolutions.cn/json-to-excel.html" target="_blank">https://s.wtsolutions.cn/json-to-excel.html</a>
+* [Windows](https://r2.wtsolutions.cn/j2e-releases/JSON-to-Excel-by-WTSolutions-LocalApp-6.0.0-win.exe)
+* [MacOS](https://r2.wtsolutions.cn/j2e-releases/JSON-to-Excel-by-WTSolutions-LocalApp-6.0.0.dmg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>

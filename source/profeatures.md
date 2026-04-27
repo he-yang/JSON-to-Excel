@@ -6,7 +6,7 @@ JSON-to-Excel offers a set of pro features that enhance the functionality.
 
 
 ## JSON Data
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br> [Local App](LocalApp.md) |[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
 
@@ -185,7 +185,7 @@ Refer to [Examples](examples.md) for valid and invalid JSON data examples.
 ## Conversion Settings
 
 ### Conversion Mode
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br> [Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
 
@@ -201,7 +201,7 @@ There are two conversion modes: Flat JSON Mode and Nested JSON Mode. Refer to [E
    - Unlimited depth converted by default. Customize max depth (1 to 20, or unlimited) of nested objects using Max Depth Nested setting
 
 ### Nested Delimeter
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br> [Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
 
@@ -252,7 +252,7 @@ Using Forward Slash(/):
 |2|Lily|Jaskson|15|
 
 ### Max Depth Nested
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br> [Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
 
@@ -306,7 +306,7 @@ Using Dot(.) as delimiter:
 
 
 ## No Ads
-||[Web App](WebApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
+||[Web App](WebApp.md) and <br> [Local App](LocalApp.md)|[Excel Add-in](ExcelAddIn.md)|[WPS Add-in](WPSAddIn.md)|[API](API.md)|[MCP](MCP.md)|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |Applicable|✅|✅|✅|❌|❌|
 
@@ -325,6 +325,12 @@ If you have subscribed, and would like to see more features, kindly please send 
 
 ## Pro Code
 
-Pro Code is the `email address` you used during the checkout process of the JSON to Excel on Stripe or Paddle. This code is required to have unlimited data conversion.
+* Web Based Solutions
+  * Pro Code is the `email address` you used during the checkout process of the JSON-to-Excel on Paddle. This code is required to have unlimited data conversion.
+  * For web based solutions, subscription (1 month, 3 months, 6 months, 1 year) is available.
+
+* Localized Solutions
+  * Pro Code is the code you will receive by email after checkout process. This code is required to have unlimited data conversion.
+  * For localized solutions, one-time purchase for lifetime use is available.
 
 
