@@ -21,7 +21,7 @@ JSON-to-Excel by WTSolutions is a toolkit which can convert JSON to Excel, both 
 * Localized Solutions
    
    * `Localized App: Convert JSON to Excel in Localized App, works without Internet Connection. <LocalApp.html>`_
-   * Localized Excel Add-in, Coming soon.
+   * `Localized Excel Add-in, Convert JSON to Excel in Localized Excel, works without Internet Connection. <LocalExcelAddIn.html>`_
    * Localized WPS Add-in, Coming soon.
 
 Furthermore, WTSolutions also offers Excel to JSON tools, which can convert Excel to JSON as Web App, Excel Addin, API, and MCP Service.
@@ -53,6 +53,7 @@ Refer to `Excel-to-JSON by WTSolutions <https://excel-to-json.wtsolutions.cn/>`_
    :name: localizedsolutions
 
    LocalApp.md
+   LocalExcelAddIn.md
    
 
 .. toctree::

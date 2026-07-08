@@ -13,7 +13,7 @@ JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Exc
 * Localized Solutions
      
      * [Localized App: Convert JSON to Excel in Localized App, works without Internet Connection](LocalApp.md)
-     * Localized Excel Add-in, Coming soon.
+     * [Localized Excel Add-in, Convert JSON to Excel in Localized Excel, works without Internet Connection](LocalExcelAddIn.md)
      * Localized WPS Add-in, Coming soon.
 
 ## Requirements

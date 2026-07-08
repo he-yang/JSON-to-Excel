@@ -10,10 +10,10 @@ JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Exc
      * [WPS add-in: Convert JSON to Excel in WPS, works with WPS environment seamlessly. ](WPSAddIn.md)
      * [API: Convert JSON to Excel in API by HTTPS POST request](API.md)
      * [MCP Server: Convert JSON to Excel in MCP Server](MCP.md)
-* Localized Solutions
      
+* Localized Solutions     
      * <mark>Localized App: Convert JSON to Excel in Localized App,works without Internet Connection.</mark>(<-- You are here)
-     * Localized Excel Add-in, Coming soon.
+     * [Localized Excel Add-in, Convert JSON to Excel in Localized Excel, works without Internet Connection](LocalExcelAddIn.md)
      * Localized WPS Add-in, Coming soon.
 
 ## Requirements
@@ -23,8 +23,7 @@ JSON-to-Excel by WTSolutions is a toolkit of tools which can convert JSON to Exc
 
 ## Download
 
-* [Windows](https://r2.wtsolutions.cn/j2e-releases/JSON-to-Excel-by-WTSolutions-LocalApp-6.0.0-win.exe)
-* [MacOS](https://r2.wtsolutions.cn/j2e-releases/JSON-to-Excel-by-WTSolutions-LocalApp-6.0.0.dmg)
+* [Download Links](https://s.wtsolutions.cn/latest.html?product=json-to-excel-local-app&language=en)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
