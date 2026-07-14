@@ -21,6 +21,8 @@ html_extra_path = ['robots.txt','ads.txt','baidu_verify_codeva-NQXz6GN9nc.html',
 templates_path = ['_templates']
 exclude_patterns = []
 
+myst_enable_extensions = ["colon_fence"]
+
 source_suffix = {
     '.rst': 'restructuredtext',
     '.txt': 'markdown',
@@ -38,12 +40,30 @@ html_theme_options = {
     "nav_links": [
         {
             "title": "Product File",
-            "url": "https://s.wtsolutions.cn/excel-json-product.html"
+            "url": "https://s.wtsolutions.cn/excel-json-product.html",
+            "external": True
         },
         {
-            "title": "JSON-to-Excel 在线应用",
-            "url": "https://s.wtsolutions.cn/json-to-excel.html"
+            "title": "JSON-to-Excel Web App",
+            "url": "https://s.wtsolutions.cn/json-to-excel.html",
+            "external": True
         },
+        {
+            "title": "Relates Products",
+            "url": "products",
+            "children": [
+                {
+                    "title": "Excel-to-JSON",
+                    "url": "https://s.wtsolutions.cn/excel-json-product.html",
+                    "external": True
+                },
+                {
+                    "title": "Sheet-to-Doc",
+                    "url": "https://s.wtsolutions.cn/sheet-to-doc-product.html",
+                    "external": True
+                }
+            ]
+        }
     ]
 }
 
